@@ -21,3 +21,6 @@ album3 = Album.new({ 'name' => 'Ellipsis', 'genre' => 'Rock', 'artist_id' => art
 album1.save()
 album2.save()
 album3.save()
+
+p Album.all()
+p Artist.all()
