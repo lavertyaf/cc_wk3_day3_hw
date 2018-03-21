@@ -23,4 +23,14 @@ album2.save()
 album3.save()
 
 p Album.all()
+puts ""
 p Artist.all()
+puts ""
+all_albums_of_artist1 = artist1.discography()
+p all_albums_of_artist1
+puts ""
+found_artist = Album.find_artist(2)
+p found_artist
+puts ""
+artist_of_album2 = album2.tell_artist()
+p artist_of_album2
